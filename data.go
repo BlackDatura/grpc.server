@@ -15,7 +15,7 @@ var employees = []*pb.Employee{
 		LastName:  "Liu",
 		MonthSalary: &pb.MonthSalary{
 			Basic: 30000,
-			Bonus: 15000,
+			Bonus: 20000,
 		},
 		Status: pb.EmployeeStatus_NORMAL,
 		LastModified: &timestamppb.Timestamp{
