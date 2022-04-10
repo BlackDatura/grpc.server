@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPC.Server.Protos";
+option go_package = "github.com/blackdatura/grpc.server/pb";
+
+enum EmployeeStatus{
+	NORMAL = 0;
+	ONVACATION = 1;
+	RESIGNED = 2;
+	RETIRED = 3; 
+}
